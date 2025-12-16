@@ -1,6 +1,7 @@
 import * as signalR from '@microsoft/signalr';
 
-const SIGNALR_URL = 'https://localhost:7125/order'; // Thay đổi theo backend
+// Khớp với app.MapHub<OrderHub>("/orderHub");
+const SIGNALR_URL = 'https://localhost:7125/orderHub';
 
 class SignalRService {
   constructor() {
@@ -9,21 +10,21 @@ class SignalRService {
 
   // Khởi tạo kết nối
   startConnection = async () => {
-    this.connection = new signalR. HubConnectionBuilder()
+    this.connection = new signalR.HubConnectionBuilder()
       .withUrl(SIGNALR_URL, {
         skipNegotiation: false,
         transport: signalR.HttpTransportType.WebSockets | signalR.HttpTransportType.LongPolling,
       })
       .withAutomaticReconnect()
-      .configureLogging(signalR. LogLevel.Information)
+      .configureLogging(signalR.LogLevel.Information)
       .build();
 
     try {
-      await this.connection. start();
+      await this.connection.start();
       console.log('SignalR Connected');
       return true;
     } catch (err) {
-      console.error('SignalR Connection Error:  ', err);
+      console.error('SignalR Connection Error:', err);
       return false;
     }
   };
@@ -45,7 +46,7 @@ class SignalRService {
 
   // Kiểm tra trạng thái kết nối
   isConnected = () => {
-    return this.connection?. state === signalR.HubConnectionState.Connected;
+    return this.connection?.state === signalR.HubConnectionState.Connected;
   };
 }
 

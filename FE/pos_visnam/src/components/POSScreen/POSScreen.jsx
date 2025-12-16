@@ -76,7 +76,7 @@ function POSScreen() {
       const response = await orderAPI.createOrder(orderRequest);
       
       if (response.success) {
-        alert(`Đơn hàng ${response.data.orderCode} đã được tạo thành công!`);
+        alert(`Thanh toán thành công`);
         setCart([]);
       }
     } catch (error) {
