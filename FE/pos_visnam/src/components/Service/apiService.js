@@ -20,12 +20,12 @@ export const productAPI = {
 // Order APIs
 export const orderAPI = {
   getAll:  async () => {
-    const response = await apiClient.get('/Order');
+    const response = await apiClient.get('/order');
     return response.data;
   },
   
   getRealtimeOrders: async () => {
-    const response = await apiClient.get('/Order/realtime');
+    const response = await apiClient.get('/order');
     return response.data;
   },
   

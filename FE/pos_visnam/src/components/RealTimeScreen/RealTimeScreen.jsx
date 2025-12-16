@@ -8,13 +8,9 @@ function RealtimeScreen() {
   const [connectionStatus, setConnectionStatus] = useState('Đang kết nối.. .');
 
   useEffect(() => {
-    // Load danh sách orders ban đầu
     loadOrders();
-
-    // Khởi tạo SignalR connection
     initSignalR();
 
-    // Cleanup khi component unmount
     return () => {
       signalRService.stopConnection();
     };
@@ -37,12 +33,10 @@ function RealtimeScreen() {
     if (connected) {
       setConnectionStatus('Đã kết nối');
       
-      // Lắng nghe sự kiện nhận order mới
+      // Lắng nghe order mới
       signalRService.onReceiveOrderUpdate((newOrder) => {
         console.log('Received new order:', newOrder);
         setOrders(prevOrders => [newOrder, ...prevOrders]);
-        
-        // Hiển thị thông báo
         showNotification(newOrder);
       });
     } else {
@@ -51,8 +45,7 @@ function RealtimeScreen() {
   };
 
   const showNotification = (order) => {
-    // Có thể dùng toast notification library
-    alert(`Đơn hàng mới: ${order.orderCode} - ${order.totalAmount. toLocaleString('vi-VN')} ₫`);
+    alert(`Đơn hàng mới: ${order.orderCode} - ${order.totalAmount.toLocaleString('vi-VN')} ₫`);
   };
 
   const formatDateTime = (dateString) => {
@@ -64,7 +57,7 @@ function RealtimeScreen() {
     <div className="realtime-screen">
       <div className="realtime-header">
         <h1>Màn hình theo dõi đơn hàng Realtime</h1>
-        <div className={`connection-status ${connectionStatus === 'Đã kết nối' ? 'connected' :  ''}`}>
+        <div className={`connection-status ${connectionStatus === 'Đã kết nối' ? 'connected' : ''}`}>
           <span className="status-dot"></span>
           {connectionStatus}
         </div>
@@ -85,7 +78,7 @@ function RealtimeScreen() {
               <div key={`${order.orderCode}-${index}`} className="order-item">
                 <div className="order-code">{order.orderCode}</div>
                 <div className="order-amount">{order.totalAmount.toLocaleString('vi-VN')} ₫</div>
-                <div className="order-time">{formatDateTime(order. createdAt)}</div>
+                <div className="order-time">{formatDateTime(order.createdAt)}</div>
               </div>
             ))
           )}

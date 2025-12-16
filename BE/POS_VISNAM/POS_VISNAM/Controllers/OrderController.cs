@@ -9,7 +9,7 @@ using POS_VISNAM.Services.Models.Responses;
 
 namespace POS_VISNAM.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/order")]
     [ApiController]
     public class OrderController : ControllerBase
     {

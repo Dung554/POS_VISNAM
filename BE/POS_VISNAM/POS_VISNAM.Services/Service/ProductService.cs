@@ -15,6 +15,7 @@ namespace POS_VISNAM.Services.Service
         {
             var products = InMemoryData.Products.Where(p => p.IsActive).Select(p => new ProductResponse
             {
+                Id = p.Id,
                 Name = p.Name,
                 Price = p.Price
             }).ToList();

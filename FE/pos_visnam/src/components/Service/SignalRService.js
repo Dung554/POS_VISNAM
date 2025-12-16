@@ -1,6 +1,6 @@
 import * as signalR from '@microsoft/signalr';
 
-const SIGNALR_URL = 'https://localhost:7125/orderHub'; // Thay đổi theo backend
+const SIGNALR_URL = 'https://localhost:7125/order'; // Thay đổi theo backend
 
 class SignalRService {
   constructor() {
