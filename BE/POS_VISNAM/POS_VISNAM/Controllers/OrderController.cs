@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
+using POS_VISNAM.Hubs;
 using POS_VISNAM.Repositories.Entities;
 using POS_VISNAM.Services.IService;
 using POS_VISNAM.Services.Models.Requsets;
@@ -12,9 +14,12 @@ namespace POS_VISNAM.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderService orderService;
-        public OrderController(IOrderService orderService)
+        private readonly IHubContext<OrderHub> hubContext;
+
+        public OrderController(IOrderService orderService, IHubContext<OrderHub> hubContext)
         {
             this.orderService = orderService;
+            this.hubContext = hubContext;
         }
 
         [HttpGet]
@@ -32,11 +37,23 @@ namespace POS_VISNAM.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOrder([FromBody] OrderRequest request)
+        public async Task<IActionResult> CreateOrder([FromBody] OrderRequest request)
         {
             try
             {
                 var order = orderService.CreateOrder(request);
+
+                // Tạo response cho order mới
+                var orderResponse = new OrderResponse
+                {
+                    OrderCode = order.OrderCode,
+                    TotalAmount = order.TotalAmount,
+                    CreatedAt = order.CreatedAt
+                };
+
+                // Gửi thông báo realtime qua SignalR
+                await hubContext.Clients.All.SendAsync("ReceiveOrderUpdate", orderResponse);
+
                 var response = new BaseResponse<Order>
                 {
                     Code = 201,

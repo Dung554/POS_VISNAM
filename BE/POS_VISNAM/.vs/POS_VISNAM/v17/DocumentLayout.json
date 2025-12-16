@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|solutionrelative:pos_visnam.services\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\models\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|solutionrelative:pos_visnam.services\\models\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|solutionrelative:pos_visnam\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|solutionrelative:pos_visnam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam\\hub\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|solutionrelative:pos_visnam\\hub\\orderhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam\\pos_visnam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|solutionrelative:pos_visnam\\pos_visnam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|solutionrelative:pos_visnam.services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|solutionrelative:pos_visnam.services\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\models\\responses\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|solutionrelative:pos_visnam.services\\models\\responses\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\models\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|solutionrelative:pos_visnam.services\\models\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\models\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\models\\requsets\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|solutionrelative:pos_visnam.services\\models\\requsets\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|solutionrelative:pos_visnam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam\\pos_visnam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4E03B1A6-EDBB-4B94-86AB-5A72565F4857}|POS_VISNAM\\POS_VISNAM.csproj|solutionrelative:pos_visnam\\pos_visnam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F28BF2-5AB1-45BB-8583-8713928B48E9}|POS_VISNAM.Services\\POS_VISNAM.Services.csproj|d:\\test placement\\pos_visnam\\be\\pos_visnam\\pos_visnam.services\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,43 +78,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
-              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
-              "RelativeToolTip": "POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "OrderHub.cs",
+              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Hub\\OrderHub.cs",
+              "RelativeDocumentMoniker": "POS_VISNAM\\Hub\\OrderHub.cs",
+              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Hub\\OrderHub.cs",
+              "RelativeToolTip": "POS_VISNAM\\Hub\\OrderHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:17:16.716Z",
+              "WhenOpened": "2025-12-16T01:44:11.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Program.cs",
               "RelativeDocumentMoniker": "POS_VISNAM\\Program.cs",
               "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Program.cs",
               "RelativeToolTip": "POS_VISNAM\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T14:10:27.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "POS_VISNAM\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Controllers\\OrderController.cs",
               "RelativeToolTip": "POS_VISNAM\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwDIAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwC0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T14:09:44.985Z",
               "EditorCaption": ""
@@ -118,32 +122,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "POS_VISNAM\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "POS_VISNAM\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:08:46.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderRequest.cs",
-              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
-              "RelativeDocumentMoniker": "POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
-              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
-              "RelativeToolTip": "POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:56:46.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "OrderResponse.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Responses\\OrderResponse.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Services\\Models\\Responses\\OrderResponse.cs",
@@ -156,20 +134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Services\\Service\\OrderService.cs",
               "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Service\\OrderService.cs",
               "RelativeToolTip": "POS_VISNAM.Services\\Service\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T12:59:27.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ProductResponse.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Responses\\ProductResponse.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Services\\Models\\Responses\\ProductResponse.cs",
@@ -182,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Service\\ProductService.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Services\\Service\\ProductService.cs",
@@ -195,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\IService\\IProductService.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Services\\IService\\IProductService.cs",
@@ -208,7 +186,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "POS_VISNAM.csproj",
+              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\POS_VISNAM.csproj",
+              "RelativeDocumentMoniker": "POS_VISNAM\\POS_VISNAM.csproj",
+              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\POS_VISNAM.csproj",
+              "RelativeToolTip": "POS_VISNAM\\POS_VISNAM.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T14:13:55.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "OrderRequest.cs",
+              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
+              "RelativeDocumentMoniker": "POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
+              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
+              "RelativeToolTip": "POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T13:56:46.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "POS_VISNAM\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "POS_VISNAM\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:08:46.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
+              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
+              "RelativeToolTip": "POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:17:16.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Services\\IService\\IOrderService.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Services\\IService\\IOrderService.cs",
@@ -221,20 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "POS_VISNAM",
-              "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\POS_VISNAM.csproj",
-              "RelativeDocumentMoniker": "POS_VISNAM\\POS_VISNAM.csproj",
-              "ToolTip": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM\\POS_VISNAM.csproj",
-              "RelativeToolTip": "POS_VISNAM\\POS_VISNAM.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-15T14:13:55.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Repositories\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Repositories\\Entities\\Product.cs",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Repositories\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Repositories\\Entities\\OrderItem.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Repositories\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Repositories\\Entities\\Order.cs",
@@ -273,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "InMemoryData.cs",
               "DocumentMoniker": "D:\\test placement\\POS_VISNAM\\BE\\POS_VISNAM\\POS_VISNAM.Repositories\\Data\\InMemoryData.cs",
               "RelativeDocumentMoniker": "POS_VISNAM.Repositories\\Data\\InMemoryData.cs",

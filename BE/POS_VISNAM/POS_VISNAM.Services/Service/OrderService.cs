@@ -15,12 +15,15 @@ namespace POS_VISNAM.Services.Service
     {
         public List<OrderResponse> getAll()
         {
-            var orders = InMemoryData.Orders.Select(o => new OrderResponse
-            {
-                OrderCode = o.OrderCode,
-                TotalAmount = o.TotalAmount,
-                CreatedAt = o.CreatedAt
-            }).ToList();
+            var orders = InMemoryData.Orders
+                .OrderByDescending(o => o.CreatedAt)
+                .Select(o => new OrderResponse
+                {
+                    OrderCode = o.OrderCode,
+                    TotalAmount = o.TotalAmount,
+                    CreatedAt = o.CreatedAt
+                }).ToList();
+
             return orders;
         }
 
