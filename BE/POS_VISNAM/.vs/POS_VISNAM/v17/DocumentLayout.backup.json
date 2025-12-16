@@ -90,8 +90,7 @@
               "RelativeToolTip": "POS_VISNAM\\Hub\\OrderHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T01:44:11.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T01:44:11.932Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "POS_VISNAM\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:10:27.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T14:10:27.868Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "POS_VISNAM\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAwwC0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:09:44.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T14:09:44.985Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "POS_VISNAM.Services\\Models\\Responses\\OrderResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:52:41.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T13:52:41.187Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "RelativeToolTip": "POS_VISNAM.Services\\Models\\Responses\\ProductResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:51:22.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T12:51:22.897Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "POS_VISNAM.Services\\Service\\ProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:50:43.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T12:50:43.299Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "POS_VISNAM.Services\\IService\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:58:10.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T12:58:10.281Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "POS_VISNAM\\POS_VISNAM.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-15T14:13:55.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T14:13:55.571Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "POS_VISNAM.Services\\Models\\Requsets\\OrderRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:56:46.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T13:56:46.01Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "POS_VISNAM\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:08:46.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T14:08:46.164Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "POS_VISNAM.Services\\Models\\Responses\\BaseResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:17:16.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T14:17:16.716Z"
             },
             {
               "$type": "Document",
@@ -246,8 +235,7 @@
               "RelativeToolTip": "POS_VISNAM.Services\\IService\\IOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:07:24.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T14:07:24.717Z"
             },
             {
               "$type": "Document",
@@ -259,8 +247,7 @@
               "RelativeToolTip": "POS_VISNAM.Repositories\\Entities\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:33:22.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T12:33:22.6Z"
             },
             {
               "$type": "Document",
@@ -272,8 +259,7 @@
               "RelativeToolTip": "POS_VISNAM.Repositories\\Entities\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:33:19.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T12:33:19.716Z"
             },
             {
               "$type": "Document",
@@ -285,8 +271,7 @@
               "RelativeToolTip": "POS_VISNAM.Repositories\\Entities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:33:10.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T12:33:10.364Z"
             },
             {
               "$type": "Document",
@@ -298,8 +283,7 @@
               "RelativeToolTip": "POS_VISNAM.Repositories\\Data\\InMemoryData.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAAwEoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:32:57.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T12:32:57.441Z"
             }
           ]
         }

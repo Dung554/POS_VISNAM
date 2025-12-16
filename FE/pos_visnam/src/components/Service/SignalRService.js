@@ -1,22 +1,52 @@
-import * as signalR from "@microsoft/signalr";
+import * as signalR from '@microsoft/signalr';
 
-// Kết nối đến SignalR Hub
-const connection = new signalR.HubConnectionBuilder()
-    .withUrl("https://localhost:7125/orderHub") // Thay đổi URL theo backend của bạn
-    .withAutomaticReconnect()
-    .build();
+const SIGNALR_URL = 'https://localhost:7125/orderHub'; // Thay đổi theo backend
 
-// Lắng nghe sự kiện nhận order mới
-connection.on("ReceiveOrderUpdate", (orderData) => {
-    console.log("New order received:", orderData);
-    // Cập nhật UI với order mới
-    // Ví dụ: setOrders([orderData, ...orders]);
-});
+class SignalRService {
+  constructor() {
+    this.connection = null;
+  }
 
-// Bắt đầu kết nối
-connection.start()
-    .then(() => console.log("Connected to SignalR"))
-    .catch(err => console.error("Error connecting to SignalR:", err));
+  // Khởi tạo kết nối
+  startConnection = async () => {
+    this.connection = new signalR. HubConnectionBuilder()
+      .withUrl(SIGNALR_URL, {
+        skipNegotiation: false,
+        transport: signalR.HttpTransportType.WebSockets | signalR.HttpTransportType.LongPolling,
+      })
+      .withAutomaticReconnect()
+      .configureLogging(signalR. LogLevel.Information)
+      .build();
 
-// Khi component unmount, ngắt kết nối
-// connection.stop();
+    try {
+      await this.connection. start();
+      console.log('SignalR Connected');
+      return true;
+    } catch (err) {
+      console.error('SignalR Connection Error:  ', err);
+      return false;
+    }
+  };
+
+  // Lắng nghe sự kiện nhận order mới
+  onReceiveOrderUpdate = (callback) => {
+    if (this.connection) {
+      this.connection.on('ReceiveOrderUpdate', callback);
+    }
+  };
+
+  // Ngắt kết nối
+  stopConnection = async () => {
+    if (this.connection) {
+      await this.connection.stop();
+      console.log('SignalR Disconnected');
+    }
+  };
+
+  // Kiểm tra trạng thái kết nối
+  isConnected = () => {
+    return this.connection?. state === signalR.HubConnectionState.Connected;
+  };
+}
+
+export default new SignalRService();
